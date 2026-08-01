@@ -128,9 +128,12 @@ The demonstration includes:
 
 ## Hardware Used
 
-The live telemetry used in this demonstration originates from a real **Jimi IoT OBD-II** telematics device connected to a vehicle.
+The live telemetry used in this demonstration originates from a real **Jimi IoT OBD-II** telematics device connected to the test vehicle.
 
-*(Hardware photograph available in the `/screenshots` folder.)*
+### Jimi IoT OBD-II Device
+
+![Jimi IoT OBD-II Device](screenshots/jimi-obd-device.jpg)
+
 
 ---
 # Current Development Stage
