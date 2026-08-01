@@ -6,6 +6,10 @@ MAVERY AVIA is an autonomous AI agent that continuously monitors live vehicle te
 
 The agent integrates directly with the Mavery Backend, which receives real-time vehicle telemetry from Jimi IoT / Tracksolid Pro OBD-II devices.
 
+**Deployment Vision**
+
+MAVERY AVIA is designed for deployment through **Fetch.ai Agentverse** and **Agent Launch** on **BNB Chain**, enabling autonomous AI agents to coordinate vehicle diagnostics, predictive maintenance, and fleet intelligence at scale.
+
 ---
 
 # Project Status
