@@ -1,4 +1,4 @@
-# MAVERY AVIA
+# MAVERY AVIA — Autonomous Vehicle Intelligence Agent
 
 **Autonomous Vehicle Intelligence Agent powered by Fetch.ai**
 
@@ -103,6 +103,36 @@ Every telemetry cycle MAVERY AVIA performs the following:
 
 ---
 
+# Live Demonstration
+
+MAVERY AVIA is connected to a live vehicle telemetry pipeline through the Mavery Backend API.
+
+The demonstration video below shows the autonomous agent operating with live data received from a real **Jimi IoT OBD-II** device.
+
+## 🎥 MAVERY AVIA Live Demo
+
+**Demo Video**
+
+[▶ Watch MAVERY AVIA Live Demonstration](./mavery-avia-demo.mp4)
+
+The demonstration includes:
+
+- Live telemetry ingestion from the Mavery Backend API
+- AI-powered vehicle health analysis
+- Explainable AI reasoning
+- Dynamic confidence scoring
+- Historical memory
+- Trend prediction
+- Autonomous decision making
+- Next autonomous action generation
+
+## Hardware Used
+
+The live telemetry used in this demonstration originates from a real **Jimi IoT OBD-II** telematics device connected to a vehicle.
+
+*(Hardware photograph available in the `/screenshots` folder.)*
+
+---
 # Current Development Stage
 
 The current prototype successfully validates the complete autonomous workflow using live hardware.
