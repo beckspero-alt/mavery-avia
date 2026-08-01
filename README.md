@@ -109,23 +109,28 @@ MAVERY AVIA is connected to a live vehicle telemetry pipeline through the Mavery
 
 The demonstration video below shows the autonomous agent operating with live data received from a real **Jimi IoT OBD-II** device.
 
-## 🎥 MAVERY AVIA Live Demonstration
+# Live Demonstration
 
 MAVERY AVIA is connected to a live vehicle telemetry pipeline through the Mavery Backend API.
 
-The demonstration below shows the autonomous agent processing live data received from a real **Jimi IoT OBD-II** device.
+The demonstration below shows the autonomous agent processing live telemetry received from a real **Jimi IoT OBD-II** device integrated with the Mavery platform.
 
-**Download the demo video:**
+## 🎥 MAVERY AVIA Live Demo
 
-[📹 MAVERY AVIA Demo](mavery-avia-demo.mp4)
+**Download the demonstration video:**
 
-The demonstration includes:
+[📹 MAVERY AVIA Live Demonstration](mavery-avia-demo.mp4)
+
+> **Note:** This video is an **unedited screen recording** of the current MAVERY AVIA prototype running in a live development environment. It is intentionally presented without visual effects or post-production editing to accurately demonstrate the autonomous agent's real-time operation, decision-making process, and integration with live vehicle telemetry.
+
+The demonstration showcases:
 
 - Live telemetry ingestion from the Mavery Backend API
+- Real Jimi IoT OBD-II hardware integration
 - AI-powered vehicle health analysis
 - Explainable AI reasoning
 - Dynamic confidence scoring
-- Historical memory
+- Historical vehicle memory
 - Trend prediction
 - Autonomous decision making
 - Next autonomous action generation
@@ -135,7 +140,6 @@ The demonstration includes:
 The prototype was validated using a real **Jimi IoT OBD-II** telematics device connected to a vehicle.
 
 ![Jimi IoT OBD-II Device](screenshots/jimi-obd-device.jpg)
-
 
 ---
 # Current Development Stage
