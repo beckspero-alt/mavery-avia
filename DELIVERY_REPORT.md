@@ -110,7 +110,7 @@ Every autonomous decision includes human-readable reasoning explaining:
 
 # System Architecture
 
-```text
+
 Vehicle
      │
      ▼

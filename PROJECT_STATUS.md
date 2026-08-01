@@ -56,7 +56,7 @@ The project is now progressing toward a production-ready multi-agent autonomous 
 
 # Current Architecture
 
-```text
+
 Vehicle
      │
      ▼
