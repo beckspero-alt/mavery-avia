@@ -243,7 +243,15 @@ mavery-avia/
 ├── main.py
 └── README.md
 ```
+# Repository Assets
 
+This repository includes:
+
+- 🎥 Live demonstration video of the MAVERY AVIA autonomous agent
+- 📷 Photograph of the real Jimi IoT OBD-II hardware used for testing
+- 🧠 Autonomous Fetch.ai vehicle intelligence agent
+- 📈 Explainable AI reasoning
+- 🚗 Live telemetry integration
 ---
 
 # Roadmap
