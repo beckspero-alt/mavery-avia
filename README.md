@@ -180,11 +180,11 @@ The demonstration showcases:
 
 The prototype was validated using a real **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** connected to a production vehicle.
 
-![Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device](./screenshots/jimi-obd-device.jpg)
+![Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device](https://github.com/beckspero-alt/mavery-avia/releases/download/v1.0.0/IMG_3225.jpeg)
 
 📷 **View Full-Size Hardware Image**
 
-[Open Hardware Image](https://github.com/beckspero-alt/mavery-avia/blob/main/screenshots/jimi-obd-device.jpg)
+[Open Hardware Image](https://github.com/beckspero-alt/mavery-avia/releases/download/v1.0.0/IMG_3225.jpeg)
 
 ---
 
