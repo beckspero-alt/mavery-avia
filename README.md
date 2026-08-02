@@ -2,15 +2,15 @@
 
 **Autonomous Vehicle Intelligence Agent powered by Fetch.ai**
 
-MAVERY AVIA is an autonomous AI agent that continuously monitors live vehicle telemetry, analyses vehicle health, remembers historical events, predicts future failures, and autonomously decides the next action without human intervention.
+MAVERY AVIA is an autonomous AI agent that continuously monitors live vehicle telemetry, analyses vehicle health, remembers historical events, predicts future failures, and autonomously determines the next maintenance action without human intervention.
 
-The agent integrates directly with the Mavery Backend, which receives real-time vehicle telemetry from the **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** via the **Tracksolid Pro** cloud platform.
+The agent integrates directly with the Mavery Backend, which receives real-time vehicle telemetry from the **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** through the **Tracksolid Pro** cloud platform.
 
 ---
 
-## Deployment Vision
+# Deployment Vision
 
-MAVERY AVIA is designed for deployment through **Fetch.ai Agentverse** and **Agent Launch** on **BNB Chain**, enabling autonomous AI agents to coordinate vehicle diagnostics, predictive maintenance, and fleet intelligence at scale.
+MAVERY AVIA is designed for deployment through **Fetch.ai Agentverse** and **Agent Launch** on **BNB Chain**, enabling autonomous AI agents to coordinate predictive vehicle diagnostics, maintenance intelligence, and fleet operations at scale.
 
 ---
 
@@ -18,9 +18,11 @@ MAVERY AVIA is designed for deployment through **Fetch.ai Agentverse** and **Age
 
 MAVERY AVIA is currently a **Proof-of-Concept (PoC)** autonomous vehicle intelligence agent built on the Fetch.ai framework.
 
-The project has successfully validated its end-to-end architecture by integrating a real **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** with the Mavery Backend API. Live vehicle telemetry is streamed into MAVERY AVIA where autonomous AI agents analyse vehicle health, maintain historical memory, detect trends, generate explainable reasoning, and make autonomous maintenance decisions.
+The project has successfully validated its end-to-end architecture by integrating a real **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** with the Mavery Backend API.
 
-While the core architecture has been successfully validated, MAVERY AVIA is **still under active development** and is not yet a production-ready commercial platform.
+Live vehicle telemetry is streamed into MAVERY AVIA where autonomous AI agents analyse vehicle health, maintain historical memory, detect trends, generate explainable reasoning, and autonomously recommend maintenance actions.
+
+While the core architecture has been successfully validated, MAVERY AVIA remains under active development and is not yet a production-ready commercial platform.
 
 ---
 
@@ -30,15 +32,50 @@ While the core architecture has been successfully validated, MAVERY AVIA is **st
 * Autonomous AI vehicle health analysis
 * Explainable AI reasoning
 * Dynamic confidence scoring
-* Vehicle memory system
+* Historical vehicle memory
 * Trend prediction
 * Autonomous decision engine
-* Continuous monitoring
+* Continuous vehicle monitoring
 * Failure risk prediction
 * Mechanic recommendation logic
 * Driver notification logic
 * Fetch.ai autonomous agent architecture
+* Autonomous Marketplace Agent for intelligent vehicle parts discovery, supplier matching, price comparison, and purchase recommendations
 
+---
+
+# Autonomous Marketplace Agent
+
+The **Autonomous Marketplace Agent** extends MAVERY AVIA beyond predictive maintenance by connecting drivers, fleet operators, mechanics, and trusted vehicle parts suppliers through AI-driven automation.
+
+Once a potential fault is detected, the Marketplace Agent can:
+
+* Recommend compatible replacement parts
+* Match trusted suppliers
+* Compare pricing across vendors
+* Estimate repair costs
+* Recommend nearby mechanics
+* Simplify maintenance through an intelligent automotive marketplace
+
+---
+
+# Telemetry Flexibility
+
+MAVERY AVIA is designed as a **telemetry-agnostic autonomous vehicle intelligence agent**.
+
+The current proof-of-concept has been successfully validated using the **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** integrated with the **Tracksolid Pro** cloud platform.
+
+The underlying architecture is designed to support multiple telemetry sources, allowing MAVERY AVIA to integrate with multiple connected vehicle ecosystems.
+
+Future telemetry integrations include:
+
+* OEM connected vehicle APIs
+* Cloud telematics platforms
+* Fleet management systems
+* Additional OBD-II hardware providers
+* Simulated telemetry for development and testing
+
+This architecture enables MAVERY AVIA to support both legacy vehicles equipped with external telematics devices and modern connected vehicles that expose telemetry through manufacturer or fleet APIs.
 ---
 
 # Architecture
@@ -80,7 +117,7 @@ Next Autonomous Action
 
 Every telemetry cycle MAVERY AVIA performs the following:
 
-1. Retrieves live telemetry from the Mavery Backend.
+1. Retrieves live telemetry from the Mavery Backend API.
 2. Builds the current vehicle state.
 3. Analyses vehicle health using AI.
 4. Calculates vehicle health and failure risk.
@@ -108,6 +145,7 @@ Every telemetry cycle MAVERY AVIA performs the following:
 * Continuous real-time monitoring
 
 ---
+
 # Live Demonstration
 
 MAVERY AVIA is connected to a live vehicle telemetry pipeline through the Mavery Backend API.
@@ -121,7 +159,6 @@ Download the recorded demonstration showing MAVERY AVIA processing live telemetr
 📥 **Download MAVERY AVIA Live Demonstration**
 
 [Download Demo Video](https://github.com/beckspero-alt/mavery-avia/releases/download/v1.0.0/mavery-avia-demo.mp4)
-
 
 > **Note:** This video is an **unedited screen recording** of the current MAVERY AVIA prototype running in a live development environment. It is intentionally presented without visual effects or post-production editing to accurately demonstrate the autonomous agent's real-time operation, decision-making process, and integration with live vehicle telemetry.
 
@@ -139,7 +176,7 @@ The demonstration showcases:
 
 ---
 
-## Hardware Used
+# Hardware Used
 
 The prototype was validated using a real **Jimi IoT VL502 LTE OBD-II Vehicle Telematics Device** connected to a production vehicle.
 
@@ -147,7 +184,8 @@ The prototype was validated using a real **Jimi IoT VL502 LTE OBD-II Vehicle Tel
 
 📷 **View Full-Size Hardware Image**
 
-[Open Hardware Image](https://raw.githubusercontent.com/beckspero-alt/mavery-avia/9fe7feced9c2558e7c8bdbc2cb4f2e1fa5cadd33/screenshots/jimi-obd-device.jpg
+[Open Hardware Image](https://github.com/beckspero-alt/mavery-avia/blob/main/screenshots/jimi-obd-device.jpg)
+
 ---
 
 # Current Development Stage
@@ -182,6 +220,8 @@ This demonstrates that MAVERY AVIA already operates with real vehicle telemetry 
 
 # Example Agent Output
 
+## Mission Status
+
 
 MISSION STATUS
 
@@ -203,6 +243,8 @@ Trend Analysis:
 ✓ Active
 ```
 
+## Autonomous Decision
+
 
 AUTONOMOUS DECISION
 
@@ -219,6 +261,8 @@ Confidence:
 70%
 ```
 
+## Next Autonomous Action
+
 
 NEXT AUTONOMOUS ACTION
 
@@ -232,7 +276,6 @@ NEXT AUTONOMOUS ACTION
 ```
 
 ---
-
 # Technology Stack
 
 * Python
@@ -244,6 +287,7 @@ NEXT AUTONOMOUS ACTION
 * Autonomous AI Decision Engine
 
 ---
+
 # Repository Structure
 
 
@@ -256,8 +300,10 @@ mavery-avia/
 ├── services/
 ├── tests/
 ├── screenshots/
+│   └── jimi-obd-device.jpg
 ├── DELIVERY_REPORT.md
 ├── PROJECT_STATUS.md
+├── mavery-avia-demo.mp4
 ├── main.py
 └── README.md
 ```
@@ -273,8 +319,8 @@ This repository includes:
 * 🧠 Autonomous Fetch.ai vehicle intelligence agent
 * 📈 Explainable AI reasoning
 * 🚗 Live telemetry integration
-* 📄 Delivery Report
-* 📄 Project Status documentation
+* 📄 DELIVERY_REPORT.md
+* 📄 PROJECT_STATUS.md
 
 ---
 
@@ -285,11 +331,13 @@ The next development phase focuses on transforming MAVERY AVIA from a validated 
 Upcoming milestones include:
 
 * Multi-agent collaboration using Fetch.ai
+* Agentverse deployment
 * Advanced predictive maintenance models
 * Fleet intelligence dashboard
 * Autonomous maintenance scheduling
 * Autonomous mechanic assignment
 * Autonomous spare-parts recommendation
+* Autonomous Marketplace Agent
 * Driver behaviour intelligence
 * Weather-aware vehicle intelligence
 * Traffic-aware routing intelligence
@@ -307,12 +355,14 @@ Although MAVERY AVIA has successfully validated its architecture through live ha
 Funding will accelerate development of the autonomous intelligence layer by enabling:
 
 * Production-ready Fetch.ai multi-agent collaboration
+* Agentverse deployment
 * Advanced predictive analytics
 * Expanded real-world vehicle testing
 * Improved AI models
 * Fleet-scale deployment
 * Cloud infrastructure improvements
 * Autonomous coordination between specialised AI agents
+* Autonomous Marketplace capabilities
 
 Rather than funding an idea, this support will transform an already validated prototype into a scalable autonomous mobility platform powered by Fetch.ai.
 
@@ -322,16 +372,16 @@ Rather than funding an idea, this support will transform an already validated pr
 
 Mavery is an AI-powered vehicle intelligence platform that predicts vehicle failures before they occur using live telemetry, artificial intelligence, and autonomous agents.
 
-MAVERY AVIA is the autonomous intelligence layer responsible for real-time vehicle monitoring, explainable AI reasoning, predictive maintenance, and autonomous decision-making for connected vehicles.
+MAVERY AVIA is the autonomous intelligence layer responsible for real-time vehicle monitoring, explainable AI reasoning, predictive maintenance, autonomous decision-making, and future multi-agent collaboration for connected vehicles.
 
 ---
 
-## License
+# License
 
 **Copyright © 2026 Mavery Technologies. All Rights Reserved.**
 
 This repository is shared solely to demonstrate the MAVERY AVIA autonomous vehicle intelligence agent for grant evaluation, research collaboration, and technical review.
 
-All intellectual property, source code, algorithms, models, designs, documentation, and associated assets remain the exclusive property of **Mavery Technologies**.
+All intellectual property, source code, algorithms, models, documentation, designs, and associated assets remain the exclusive property of **Mavery Technologies**.
 
-No commercial use, redistribution, reproduction, modification, or incorporation into other products is permitted without prior written authorization from Mavery Technologies.
+No commercial use, redistribution, reproduction, modification, reverse engineering, or incorporation into other products is permitted without prior written authorization from **Mavery Technologies**.
